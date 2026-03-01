@@ -84,6 +84,18 @@ Discrete-event simulation of (s, S) inventory policies in **Python**. Includes b
 
 ---
 
+### 🤝 Collaborations
+
+Projects I contributed to as part of a team:
+
+| Project | Description | Tech |
+|:--------|:------------|:-----|
+| [Backend_AutomaticExamGeneration](https://github.com/JD3M0N/Backend_AutomaticExamGeneration) | Backend for an automatic exam generation platform | C# / .NET |
+| [Web_AutomaticExamGeneration](https://github.com/JD3M0N/Web_AutomaticExamGeneration) | Frontend for the automatic exam generation platform | TypeScript / React |
+| [mulas](https://github.com/Pol4720/mulas) | Final DAA (Design & Analysis of Algorithms) project | HTML / Algorithms |
+
+---
+
 ### 📈 GitHub Stats
 
 <div align="center">
