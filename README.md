@@ -92,6 +92,10 @@ Projects I contributed to as part of a team:
 |:--------|:------------|:-----|
 | [Backend_AutomaticExamGeneration](https://github.com/JD3M0N/Backend_AutomaticExamGeneration) | Backend for an automatic exam generation platform | C# / .NET |
 | [Web_AutomaticExamGeneration](https://github.com/JD3M0N/Web_AutomaticExamGeneration) | Frontend for the automatic exam generation platform | TypeScript / React |
+| [DistriSearch](https://github.com/Pol4720/DistriSearch) | Distributed Systems course final project — distributed search engine | Python |
+| [IA-Simulation-IR-System](https://github.com/JD3M0N/IA-Simulation-Information_Retrieval_System-Proyect) | AI & Simulation — Information Retrieval System | HTML / Python |
+| [mortality-ami-predictor](https://github.com/Pol4720/mortality-ami-predictor) | ML model for predicting AMI in-hospital mortality | Jupyter / Python |
+| [computer_networks_fall_2024](https://github.com/matcom/computer_networks_fall_2024) | Computer Networks course projects (MatCom) | Python |
 | [mulas](https://github.com/Pol4720/mulas) | Final DAA (Design & Analysis of Algorithms) project | HTML / Algorithms |
 
 ---
