@@ -1,119 +1,86 @@
-<div align="center">
+# Abel Ponce González — "abelponce03"
 
-# Hi, I'm Abel Ponce 👋
+I'm a computer scientist and software engineer trained at the University of Havana, with a strong foundation in mathematics, algorithms and optimization. I build software from the ground up — compilers, SAT solvers, distributed search engines, machine-learning pipelines, and full-stack web and mobile products. I like understanding systems at every layer, from lexers and consensus protocols to Docker deployments and clean APIs.
 
-**Computer Science Student** | Compiler Engineering | AI & Algorithms | Systems Programming
+Beyond shipping products, I do research-flavored work: SAT solver benchmarking, compiler construction, statistical modeling of clinical data, and information retrieval. I'm an active competitive programmer (Codeforces) and I enjoy hard algorithmic problems, low-level systems, and turning messy real-world requirements into reliable, maintainable software.
 
-[![GitHub](https://img.shields.io/badge/GitHub-abelponce03-181717?style=flat-square&logo=github)](https://github.com/abelponce03)
+Contact & links
+- Email: abelponce03@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abel-ponce-gonzález-11a39a3b4
+- Codeforces: https://codeforces.com/profile/Albecepon
+- GitHub: https://github.com/abelponce03
 
-</div>
+Core skills & technologies
+- Languages: Python, C, C++, C#, TypeScript/JavaScript, Dart, Haskell, R, Bash
+- Backend & web: FastAPI, Node.js, .NET / C#, React, Next.js, TypeScript, Tailwind, Blazor
+- Mobile: Flutter / Dart
+- Machine learning & data: scikit-learn, XGBoost, SHAP, LIME, Pandas, NumPy, SciPy, Matplotlib
+- Databases: PostgreSQL, MongoDB, SQL Server, Supabase, Redis, SQLite
+- Distributed systems & networking: gRPC, Raft consensus, master–slave architectures, TCP/UDP, HTTP/HTTPS
+- Systems & compilers: LLVM, Flex/Bison, lexer & parser generators, C99, OS primitives (pthreads, semaphores)
+- DevOps & tooling: Docker, Docker Compose, Nginx, CI/CD (GitHub Actions), Linux, Git
 
----
+Focus areas
+- Compiler construction and programming-language design
+- Distributed systems, networking and backend engineering
+- Machine learning and statistical modeling
+- Full-stack and mobile product development
+- Algorithms, optimization and competitive programming
 
-### 🎓 About Me
+## Projects
 
-I'm a Computer Science student passionate about **compiler design**, **artificial intelligence**, and **systems programming**. I enjoy tackling complex algorithmic challenges and building software from the ground up — from low-level processor design to full-stack web applications.
+Everything I've worked on, grouped by area. Team projects note my role; private repositories are marked and available on request.
 
-- 🔭 Currently working on a **HULK language compiler** built from scratch in C
-- 🌱 Exploring **SAT solvers**, **neural IR models**, and **formal language theory**
-- 💡 Strong interest in **programming language design**, **discrete math**, and **statistical analysis**
+### Compilers & programming languages
+- **HULK Compiler** — C99, LLVM, Flex. Full compiler from source to native executable: regex→DFA, LL(1) parsing, semantic analysis, code generation. https://github.com/abelponce03/HULK-COMPILER-2026
+- **Lexer Generator** — C++, Bison. Configurable lexer generator: NFA from regex, subset construction to DFA, maximal-munch tokenization. https://github.com/abelponce03/lexer-generator-2025
+- **HULK Interpreter** — C#. Lexer, recursive-descent parser, AST and tree-walking evaluator for the HULK language. https://github.com/abelponce03/Hulk-PRO-2023
+- **GEOWALL-E** — C#. Geometric drawing app with a custom DSL (lexer, parser, evaluator). https://github.com/abelponce03/GEOWALL-E-PRO-2023
+- **Elemental Wars** — C#. Card game with a custom DSL and a .NET compiler pipeline. https://github.com/abelponce03/Elemental_wars-main-PRO-2023
 
----
+### SAT solving & formal methods
+- **SAT Benchmark Suite** — React, FastAPI, Docker, Nginx. Full-stack platform for rigorous SAT-solver benchmarking (Friedman/Wilcoxon tests, bootstrap CI, 63+ REST endpoints, WebSocket). B.Sc. thesis project. https://github.com/abelponce03/SAT-Comparation
+- **CDCL SAT Solver** — C. Conflict-driven clause-learning solver with two-watched literals and implication-graph analysis. https://github.com/abelponce03/SAT-SOLVER
+- **SAT Solvers Comparison (thesis)** — LaTeX. Written thesis: performance evaluation and statistical analysis of MiniSAT, CaDiCaL, Kissat and CryptoMiniSat. *(Private — available on request.)*
 
-### 🛠️ Tech Stack
+### Distributed systems & networking
+- **DistriSearch** — Python, FastAPI, gRPC, MongoDB. Distributed document search engine: master–slave topology, custom Raft consensus, TF-IDF / MinHash / LDA retrieval. Team project, one of two core contributors. https://github.com/Pol4720/DistriSearch
+- **Computer Networks project** — Python, Shell, CI/CD. Implementation and automated verification of network protocols with GitHub Actions. Team project. https://github.com/AbrahamRom/computer_networks_fall_2024
+- **Bluetooth File Sync** — Python. Real-time file synchronization between devices over Bluetooth with threaded send/receive. https://github.com/abelponce03/Bluetooth-Redes-2024
 
-<div align="center">
+### Web & mobile products
+- **CarguApp** — Flutter/Dart, Node.js, PostgreSQL, Redis, Docker Compose. Logistics platform connecting SMEs and independent drivers in Cuba. Mobile app + containerized backend. Top contributor. *(Private — demo on request.)*
+- **E-Commerce Isleña** — Next.js, React, TypeScript, Supabase, Tailwind. E-commerce product with a back-office and role-based access control. *(Private — demo on request.)*
+- **Payments System** — Node.js, FastAPI, PostgreSQL, Docker Compose. Microservice payments API with a transaction processor, orchestrated end-to-end with one command. https://github.com/abelponce03/sistema-pagos
+- **ExamGeneration (frontend)** — React, TypeScript, Vite. Exam-management web app with statistics and role-protected routes. Top frontend contributor. https://github.com/JD3M0N/Web_AutomaticExamGeneration
+- **ExamGeneration (backend)** — .NET 8, C#, Entity Framework, SQL Server. Clean-architecture API for the exam-management platform. https://github.com/JD3M0N/Backend_AutomaticExamGeneration
+- **Moogle** — C#, Blazor. Document search engine with a TF-IDF vector model, cosine similarity and Levenshtein suggestions. https://github.com/abelponce03/Moogle-PRO-2023
 
-| Category | Technologies |
-|:---|:---|
-| **Languages** | ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Haskell](https://img.shields.io/badge/-Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white) |
-| **Web** | ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
-| **Tools & Infra** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=white) |
-| **Data & AI** | ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white) ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat-square) |
+### Machine learning & data science
+- **Mortality-AMI Predictor** — Python, Jupyter, Docker, CI. Predictive modeling of in-hospital mortality in ~4,500 acute-myocardial-infarction patients; interpretability with SHAP/LIME. Team project. *(Private — available on request.)*
+- **Lung Cancer Statistical Analysis** — Python, R. Statistical study of the NCCTG lung-cancer dataset: hypothesis testing, confidence intervals and distribution fitting. https://github.com/abelponce03/Lung-E-2025
 
-</div>
+### AI, simulation & algorithms
+- **AI + Simulation + IR** — Python, C++. CVRP route optimization via metaheuristics, discrete-event simulation and an information-retrieval pipeline designed as a RAG architecture. Top contributor. https://github.com/JD3M0N/IA-Simulation-Information_Retrieval_System-Proyect
+- **Hex AI** — Python. Game-playing agent using minimax with alpha-beta pruning, transposition tables and adaptive search depth. https://github.com/abelponce03/Hex-IA-2025
+- **Inventory Simulation** — Python. Discrete-event simulation of (s, S) inventory policies with bootstrap analysis under multiple demand distributions. https://github.com/abelponce03/An-Inventory-Model-Simulation-2025
+- **mulas (DAA)** — Design-and-analysis-of-algorithms final project. Team project. https://github.com/Pol4720/mulas
+- **Scrabble** — Haskell. Scrabble game with EN/ES dictionary validation and scoring. https://github.com/abelponce03/Scrabble-PD-2025
+- **Computational geometry** — C#. Point-in-polygon via cross-product area tests, and coordinate-system transformation visualizers. https://github.com/abelponce03/Punto-fuera-del-Poligono-ALG-I-2023 · https://github.com/abelponce03/Cambio-de-coordenadas-ALG-II-2023
 
----
+### Systems & computer architecture
+- **Alien Invaders** — C. Space Invaders exploring OS concepts: ncurses TUI, pthreads, semaphores and SDL2 audio. https://github.com/abelponce03/Alien-invaders-SO-2024
+- **S-MIPS Microprocessor** — Logisim, Python. CPU design and ISA implementation with automated testing. https://github.com/abelponce03/Microprocesador-AC-2024
+- **S-MIPS Assembly** — Assembly. Algorithmic exercises in S-MIPS assembly. https://github.com/abelponce03/Problemas-Evaluativos-AC-2024
 
-### 🚀 Featured Projects
+### Research (work in progress)
+- **Neural IR Model** — A neural information-retrieval model, in early development. https://github.com/abelponce03/Neural-IR-Model-2025
 
-<table>
-<tr>
-<td width="50%">
+## How I work
+- I build things from scratch when it helps me understand them deeply — compilers, solvers and consensus protocols included.
+- I favor readable, well-tested code and reproducible, containerized environments.
+- I like turning research-grade rigor (statistics, algorithmic complexity) into working software.
 
-#### 🔧 [HULK Compiler](https://github.com/abelponce03/HULK-COMPILER-2026)
-Full compiler for the HULK language written in **C**. Implements regex-to-DFA construction (Dragon Book Alg. 3.36), LL(1) predictive parser, and AST generation. Modular architecture with Pipeline, Visitor, and Object Pool patterns.
-
-</td>
-<td width="50%">
-
-#### ⚡ [SAT Benchmark Suite](https://github.com/abelponce03/SAT-Comparation)
-Full-stack web platform (**React + FastAPI + Docker**) for rigorous benchmarking of SAT solvers. Features statistical pipeline with Friedman tests, bootstrap CI, and publication-quality visualizations. 63+ REST endpoints.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 🧠 [Hex AI Agent](https://github.com/abelponce03/Hex-IA-2025)
-AI player for the Hex board game using **Minimax with alpha-beta pruning** in Python. Features transposition tables, strategic position evaluation, and adaptive search depth.
-
-</td>
-<td width="50%">
-
-#### 🔤 [Lexer Generator](https://github.com/abelponce03/lexer-generator-2025)
-Configurable lexer generator in **C++** with Bison/Yacc. Builds NFAs from regex, converts to DFA via subset construction, and produces tokenizers with maximal munch semantics.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 🔬 [SAT Solver](https://github.com/abelponce03/SAT-SOLVER)
-CDCL-based SAT solver implemented in **C**. Features two-watched-literal propagation, conflict-driven clause learning, and implication graph analysis.
-
-</td>
-<td width="50%">
-
-#### 📊 [Inventory Simulation](https://github.com/abelponce03/An-Inventory-Model-Simulation-2025)
-Discrete-event simulation of (s, S) inventory policies in **Python**. Includes bootstrap analysis, policy comparison under multiple demand distributions, and statistical visualization.
-
-</td>
-</tr>
-</table>
-
----
-
-### 🤝 Collaborations
-
-Projects I contributed to as part of a team:
-
-| Project | Description | Tech |
-|:--------|:------------|:-----|
-| [Backend_AutomaticExamGeneration](https://github.com/JD3M0N/Backend_AutomaticExamGeneration) | Backend for an automatic exam generation platform | C# / .NET |
-| [Web_AutomaticExamGeneration](https://github.com/JD3M0N/Web_AutomaticExamGeneration) | Frontend for the automatic exam generation platform | TypeScript / React |
-| [DistriSearch](https://github.com/Pol4720/DistriSearch) | Distributed Systems course final project — distributed search engine | Python |
-| [IA-Simulation-IR-System](https://github.com/JD3M0N/IA-Simulation-Information_Retrieval_System-Proyect) | AI & Simulation — Information Retrieval System | HTML / Python |
-| [mortality-ami-predictor](https://github.com/Pol4720/mortality-ami-predictor) | ML model for predicting AMI in-hospital mortality | Jupyter / Python |
-| [computer_networks_fall_2024](https://github.com/matcom/computer_networks_fall_2024) | Computer Networks course projects (MatCom) | Python |
-| [mulas](https://github.com/Pol4720/mulas) | Final DAA (Design & Analysis of Algorithms) project | HTML / Algorithms |
-
----
-
-### 📈 GitHub Stats
-
-<div align="center">
-
-![Abel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abelponce03&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abelponce03&layout=compact&theme=github_dark&hide_border=true&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-
-*Open to collaborations and opportunities. Feel free to explore my repositories!*
-
-</div>
+## Availability
+- Open to roles and collaborations in software engineering, backend and distributed systems, machine learning, and systems programming.
+- Best way to reach me is by email (abelponce03@gmail.com) or through GitHub.
